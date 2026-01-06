@@ -23,7 +23,7 @@ function Home() {
         <div className="container">
           <h2>Welcome to Elevation Myofunctional Therapy</h2>
           <p className="intro-text">
-            Led by Abigail Bartrand, RDH, Elevation Myofunctional Therapy provides professional,
+            Elevation Myofunctional Therapy provides professional,
             evidence-based myofunctional therapy services to help you achieve optimal oral and
             overall health. Our practice focuses on addressing the root causes of breathing,
             sleeping, and functional issues through specialized therapeutic exercises and education.
