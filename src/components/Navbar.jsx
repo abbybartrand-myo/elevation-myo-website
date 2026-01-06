@@ -17,7 +17,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <img src="/logo-placeholder.svg" alt="Elevation Myofunctional Therapy" className="logo-image" />
+          <img src="/Logo.PNG" alt="Elevation Myofunctional Therapy" className="logo-image" />
           <div className="logo-text">
             <span className="brand-name">Elevation Myofunctional Therapy</span>
             <span className="brand-tagline">Abigail Bartrand, RDH</span>
