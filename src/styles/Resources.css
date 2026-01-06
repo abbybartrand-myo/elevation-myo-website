@@ -1,0 +1,132 @@
+.intro-text {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.resource-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  border-top: 4px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+.resource-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.resource-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.resource-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.resource-link {
+  color: var(--accent-color);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: var(--transition);
+}
+
+.resource-link:hover {
+  color: var(--accent-hover);
+  transform: translateX(5px);
+}
+
+/* Topics List */
+.topics-list {
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+
+.topic-item {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--accent-color);
+}
+
+.topic-item h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.topic-item p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+/* Disclaimer Box */
+.disclaimer-box {
+  background-color: #fff3cd;
+  border: 2px solid #ffc107;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.disclaimer-box h3 {
+  color: #856404;
+  margin-bottom: 1rem;
+}
+
+.disclaimer-box p {
+  color: #856404;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* CTA Resources */
+.cta-resources {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-resources h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.cta-resources p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topic-item {
+    padding: 1.5rem;
+  }
+}

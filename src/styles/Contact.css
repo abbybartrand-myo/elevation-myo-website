@@ -1,0 +1,145 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.contact-info h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.25rem;
+}
+
+.contact-info > p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-detail h3 {
+  color: var(--accent-color);
+  font-size: 1.125rem;
+  margin-bottom: 0.625rem;
+}
+
+.contact-detail a {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 1.0625rem;
+}
+
+.contact-detail a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.contact-detail p {
+  color: var(--text-secondary);
+  margin-bottom: 0;
+}
+
+.detail-note {
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-top: 0.25rem;
+}
+
+.office-hours {
+  background-color: var(--background-alt);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.office-hours h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.875rem;
+}
+
+.contact-form-wrapper {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+}
+
+.contact-form-wrapper h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+/* Next Steps */
+.next-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.next-step {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.next-step:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.step-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 1.25rem;
+}
+
+.next-step h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}
+
+.next-step p {
+  color: var(--text-secondary);
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contact-form-wrapper {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-wrapper {
+    padding: 1.25rem;
+  }
+
+  .next-steps {
+    grid-template-columns: 1fr;
+  }
+}
