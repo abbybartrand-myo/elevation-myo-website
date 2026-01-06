@@ -200,7 +200,7 @@ function Resources() {
             If you'd like to learn more about how myofunctional therapy can help you,
             schedule a consultation today.
           </p>
-          <a href="/booking" className="btn btn-primary">Schedule Consultation</a>
+          <Link to="/contact" className="btn btn-primary">Contact Us</Link>
         </div>
       </section>
     </div>

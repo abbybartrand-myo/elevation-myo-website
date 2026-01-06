@@ -264,8 +264,7 @@ function Information() {
             can help you achieve better health.
           </p>
           <div className="cta-buttons">
-            <Link to="/booking" className="btn btn-primary">Schedule Consultation</Link>
-            <Link to="/contact" className="btn btn-secondary">Contact Us</Link>
+            <Link to="/contact" className="btn btn-primary">Contact Us</Link>
           </div>
         </div>
       </section>

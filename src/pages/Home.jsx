@@ -12,7 +12,7 @@ function Home() {
           <p className="hero-subtitle">Transform Your Health Through Better Breathing and Function</p>
           <p className="hero-location">Serving Grand Junction, Colorado</p>
           <div className="hero-buttons">
-            <Link to="/booking" className="btn btn-primary">Schedule Consultation</Link>
+            <Link to="/contact" className="btn btn-primary">Contact Us</Link>
             <Link to="/information" className="btn btn-secondary">Learn More</Link>
           </div>
         </div>
@@ -129,8 +129,7 @@ function Home() {
           <h2>Ready to Get Started?</h2>
           <p>Take the first step toward better breathing, better sleep, and better health.</p>
           <div className="cta-buttons">
-            <Link to="/booking" className="btn btn-primary-large">Schedule Your Consultation</Link>
-            <Link to="/contact" className="btn btn-secondary-large">Contact Us</Link>
+            <Link to="/contact" className="btn btn-primary-large">Contact Us</Link>
           </div>
           <p className="cta-contact">
             Or call us directly at <a href="tel:+19704627675">(970) 462-7675</a>

@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Information from './pages/Information'
 import Contact from './pages/Contact'
-import Booking from './pages/Booking'
 import Resources from './pages/Resources'
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/information" element={<Information />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/booking" element={<Booking />} />
             <Route path="/resources" element={<Resources />} />
           </Routes>
         </main>
