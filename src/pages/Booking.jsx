@@ -1,4 +1,4 @@
-import ContactForm from '../components/ContactForm'
+import ContactFormNetlify from '../components/ContactFormNetlify'
 import { Link } from 'react-router-dom'
 import '../styles/Booking.css'
 
@@ -84,7 +84,7 @@ function Booking() {
               <p className="form-instruction">
                 Fill out the form below and we'll contact you to schedule your consultation.
               </p>
-              <ContactForm formType="booking" />
+              <ContactFormNetlify formType="booking" />
             </div>
           </div>
         </div>

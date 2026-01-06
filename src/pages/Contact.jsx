@@ -60,7 +60,7 @@ function Contact() {
             {/* Contact Form */}
             <div className="contact-form-wrapper">
               <h2>Send Us a Message</h2>
-              <ContactForm formType="contact" />
+              <ContactFormNetlify formType="contact" />
             </div>
           </div>
         </div>
