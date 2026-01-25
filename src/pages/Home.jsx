@@ -9,24 +9,11 @@ function Home() {
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <h1 className="hero-title">Elevation Myofunctional Therapy</h1>
-          <p className="hero-subtitle">Transform Your Health Through Better Breathing and Function</p>
+          <p className="hero-subtitle">Transform Your Health Through Better Breathing and Oral Function</p>
           <div className="hero-buttons">
             <Link to="/contact" className="btn btn-primary">Contact Us</Link>
             <Link to="/information" className="btn btn-secondary">Learn More</Link>
           </div>
-        </div>
-      </section>
-
-      {/* Introduction Section */}
-      <section className="section intro-section">
-        <div className="container">
-          <h2>Welcome to Elevation Myofunctional Therapy</h2>
-          <p className="intro-text">
-            Elevation Myofunctional Therapy provides professional,
-            evidence-based myofunctional therapy services to help you achieve optimal oral and
-            overall health. Our practice focuses on addressing the root causes of breathing,
-            sleeping, and functional issues through specialized therapeutic exercises and education.
-          </p>
         </div>
       </section>
 
