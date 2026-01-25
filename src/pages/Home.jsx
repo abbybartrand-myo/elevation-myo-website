@@ -20,9 +20,9 @@ function Home() {
       {/* What is Myofunctional Therapy Section */}
       <section className="section what-is-section">
         <div className="container">
-          <h2>What is Myofunctional Therapy?</h2>
+          <h2>It's like physical therapy for your mouth</h2>
           <p>
-            It is like physical therapy for your mouth. Through customized exercises and techniques,
+            Through customized exercises and techniques,
             we help retrain oral and facial muscles to function correctly, leading to improvements
             in breathing, sleep, and overall health.
           </p>
