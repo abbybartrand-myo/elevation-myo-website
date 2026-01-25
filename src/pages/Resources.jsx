@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../styles/Resources.css'
 
 function Resources() {
@@ -50,104 +51,6 @@ function Resources() {
               <p>
                 Practical techniques for improving breathing patterns, athletic performance,
                 and overall health through proper breathing mechanics.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Online Resources */}
-      <section className="section">
-        <div className="container">
-          <h2>Helpful Organizations & Websites</h2>
-          <div className="resources-grid">
-            <div className="resource-card">
-              <h3>🌐 Academy of Orofacial Myofunctional Therapy (AOMT)</h3>
-              <p>
-                The leading professional organization for myofunctional therapists. Offers
-                educational resources and research on orofacial myofunctional disorders.
-              </p>
-              <a href="https://aomtinfo.org" target="_blank" rel="noopener noreferrer" className="resource-link">
-                Visit Website →
-              </a>
-            </div>
-            <div className="resource-card">
-              <h3>🌐 American Sleep Apnea Association</h3>
-              <p>
-                Comprehensive information about sleep apnea, treatment options, and the latest
-                research in sleep-disordered breathing.
-              </p>
-              <a href="https://www.sleepapnea.org" target="_blank" rel="noopener noreferrer" className="resource-link">
-                Visit Website →
-              </a>
-            </div>
-            <div className="resource-card">
-              <h3>🌐 Buteyko Breathing</h3>
-              <p>
-                Learn about the Buteyko method, a breathing technique that can help with
-                various respiratory and health issues.
-              </p>
-              <a href="https://buteykoclinic.com" target="_blank" rel="noopener noreferrer" className="resource-link">
-                Visit Website →
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Topics Section */}
-      <section className="section gray-bg">
-        <div className="container">
-          <h2>Common Topics</h2>
-          <div className="topics-list">
-            <div className="topic-item">
-              <h3>What is Mouth Breathing and Why is it Harmful?</h3>
-              <p>
-                Mouth breathing bypasses the nose's natural filtering and humidifying functions,
-                leading to dry mouth, bad breath, dental problems, and reduced oxygen absorption.
-                Chronic mouth breathing in children can affect facial development and lead to
-                sleep-disordered breathing. Myofunctional therapy helps retrain the body to breathe
-                nasally, improving overall health and preventing long-term complications.
-              </p>
-            </div>
-            <div className="topic-item">
-              <h3>The Connection Between Tongue Position and Sleep Apnea</h3>
-              <p>
-                Proper tongue posture (tongue resting on the roof of the mouth) helps maintain
-                open airways during sleep. When the tongue rests low in the mouth or falls back
-                during sleep, it can obstruct the airway, contributing to snoring and sleep apnea.
-                Myofunctional therapy strengthens tongue muscles and establishes proper resting
-                posture, which can significantly reduce sleep-disordered breathing symptoms.
-              </p>
-            </div>
-            <div className="topic-item">
-              <h3>How Myofunctional Therapy Supports Orthodontic Treatment</h3>
-              <p>
-                Orthodontic treatment moves teeth into proper position, but without addressing
-                underlying muscle dysfunction, teeth can shift back after braces are removed.
-                Myofunctional therapy corrects the muscle patterns that may have caused
-                misalignment in the first place, helping maintain orthodontic results long-term
-                and preventing relapse.
-              </p>
-            </div>
-            <div className="topic-item">
-              <h3>Myofunctional Therapy for Children</h3>
-              <p>
-                Early intervention with myofunctional therapy can guide proper facial and airway
-                development in children. Addressing issues like mouth breathing, thumb sucking,
-                and tongue thrust early can prevent more serious problems later, including sleep
-                disorders, dental issues, and developmental concerns. Therapy is typically most
-                effective when started around age 4-5.
-              </p>
-            </div>
-            <div className="topic-item">
-              <h3>Understanding Tongue Tie and Its Impact</h3>
-              <p>
-                Tongue tie (ankyloglossia) occurs when the band of tissue connecting the tongue
-                to the floor of the mouth is too tight, restricting tongue movement. This can
-                affect feeding in infants, speech development, and proper swallowing patterns.
-                Myofunctional therapy is often recommended before and after tongue tie release
-                procedures to ensure optimal function and prevent scar tissue formation.
               </p>
             </div>
           </div>

@@ -29,7 +29,7 @@ function Footer() {
           <ul className="footer-contact">
             <li>
               <span className="contact-icon">📧</span>
-              <a href="mailto:abby.bartrand@gmail.com">abby.bartrand@gmail.com</a>
+              <a href="mailto:contactelevationmyofunctional@gmail.com">contactelevationmyofunctional@gmail.com</a>
             </li>
             <li>
               <span className="contact-icon">📞</span>
