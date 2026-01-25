@@ -22,16 +22,20 @@ function AboutUs() {
             </div>
             <div className="bio-content">
               <h2>Meet Abigail Bartrand, RDH</h2>
-              <p>
-                Abigail is a licensed Registered Dental Hygienist with a passion for helping
-                patients achieve optimal oral and overall health through myofunctional therapy.
-                With years of experience in dental hygiene, she has witnessed firsthand the
-                profound impact that proper oral muscle function can have on breathing, sleep,
-                and quality of life.
+              <p className="bio-text">
+                My name is Abigail Bartrand. I am a registered dental hygienist and certified orofacial myofunctional therapist
+                with a passion for helping patients achieve improved oral function and overall health.
               </p>
-              <p>
-                Her dedication to continuing education and evidence-based practice ensures that
-                each patient receives the highest quality of care tailored to their individual needs.
+              <p className="bio-text">
+                I earned my Bachelor of Science in Dental Hygiene from the University of Nebraska Medical Center, graduating in 2021,
+                and completed the MyoMentor program in 2022. My interest in myofunctional therapy began during my senior year of hygiene
+                school after a lecture on orofacial myofunctional therapy. That sparked an immediate interest, and I knew pursuing specialized
+                training in myofunctional therapy would allow me to better support and care for my patients.
+              </p>
+              <p className="bio-text">
+                With a strong foundation in dental hygiene and myofunctional therapy, I take a comprehensive, patient-centered
+                approach to care, focusing on education, collaboration, and long-term results. Outside of work, I enjoy hiking
+                and traveling with my husband, as well as embracing a few "grandma hobbies" like knitting and baking.
               </p>
             </div>
           </div>
@@ -58,47 +62,6 @@ function AboutUs() {
                 Specialized certification in orofacial myofunctional therapy
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Certifications Section */}
-      <section className="section">
-        <div className="container">
-          <h2>Professional Certifications</h2>
-          <div className="certifications-list">
-            <div className="certification-badge">
-              <span className="badge-checkmark">✓</span>
-              <span>Registered Dental Hygienist (RDH)</span>
-            </div>
-            <div className="certification-badge">
-              <span className="badge-checkmark">✓</span>
-              <span>Certified Orofacial Myofunctional Therapist</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Motivation Section */}
-      <section className="section gray-bg">
-        <div className="container">
-          <h2>Why Myofunctional Therapy?</h2>
-          <div className="motivation-content">
-            <p className="motivation-intro">
-              My name is Abigail Bartrand. I am a registered dental hygienist and certified orofacial myofunctional therapist
-              with a passion for helping patients achieve improved oral function and overall health.
-            </p>
-            <p className="motivation-intro">
-              I earned my Bachelor of Science in Dental Hygiene from the University of Nebraska Medical Center, graduating in 2021,
-              and completed the MyoMentor program in 2022. My interest in myofunctional therapy began during my senior year of hygiene
-              school after a lecture on orofacial myofunctional therapy. That sparked an immediate interest, and I knew pursuing specialized
-              training in myofunctional therapy would allow me to better support and care for my patients.
-            </p>
-            <p className="motivation-intro">
-              With a strong foundation in dental hygiene and myofunctional therapy, I take a comprehensive, patient-centered
-              approach to care, focusing on education, collaboration, and long-term results. Outside of work, I enjoy hiking
-              and traveling with my husband, as well as embracing a few "grandma hobbies" like knitting and baking.
-            </p>
           </div>
         </div>
       </section>
