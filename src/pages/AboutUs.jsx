@@ -23,7 +23,7 @@ function AboutUs() {
             <div className="bio-content">
               <h2>Meet Abigail Bartrand, RDH</h2>
               <p className="bio-text">
-                My name is Abigail Bartrand. I am a registered dental hygienist and certified orofacial myofunctional therapist
+                I am a registered dental hygienist and orofacial myofunctional therapist
                 with a passion for helping patients achieve improved oral function and overall health.
               </p>
               <p className="bio-text">
@@ -36,30 +36,6 @@ function AboutUs() {
                 With a strong foundation in dental hygiene and myofunctional therapy, I take a comprehensive, patient-centered
                 approach to care, focusing on education, collaboration, and long-term results. Outside of work, I enjoy hiking
                 and traveling with my husband, as well as embracing a few "grandma hobbies" like knitting and baking.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Education Section */}
-      <section className="section gray-bg">
-        <div className="container">
-          <h2>Education & Training</h2>
-          <div className="credentials-grid">
-            <div className="credential-item">
-              <div className="credential-icon">🎓</div>
-              <h3>Dental Hygiene Degree</h3>
-              <p>
-                Registered Dental Hygienist (RDH) with comprehensive training in oral health
-                and patient care.
-              </p>
-            </div>
-            <div className="credential-item">
-              <div className="credential-icon">📚</div>
-              <h3>Myofunctional Therapy Certification</h3>
-              <p>
-                Specialized certification in orofacial myofunctional therapy
               </p>
             </div>
           </div>
