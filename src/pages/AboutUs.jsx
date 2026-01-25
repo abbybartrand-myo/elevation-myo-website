@@ -55,16 +55,7 @@ function AboutUs() {
               <div className="credential-icon">📚</div>
               <h3>Myofunctional Therapy Certification</h3>
               <p>
-                Specialized certification in orofacial myofunctional therapy, focusing on
-                muscle retraining and airway optimization.
-              </p>
-            </div>
-            <div className="credential-item">
-              <div className="credential-icon">✨</div>
-              <h3>Continuing Education</h3>
-              <p>
-                Ongoing professional development in sleep-disordered breathing, tongue-tie
-                release, and integrative health approaches.
+                Specialized certification in orofacial myofunctional therapy
               </p>
             </div>
           </div>
@@ -84,14 +75,6 @@ function AboutUs() {
               <span className="badge-checkmark">✓</span>
               <span>Certified Orofacial Myofunctional Therapist</span>
             </div>
-            <div className="certification-badge">
-              <span className="badge-checkmark">✓</span>
-              <span>Advanced Training in Sleep-Disordered Breathing</span>
-            </div>
-            <div className="certification-badge">
-              <span className="badge-checkmark">✓</span>
-              <span>Pediatric Airway Health Specialist</span>
-            </div>
           </div>
         </div>
       </section>
@@ -102,35 +85,20 @@ function AboutUs() {
           <h2>Why Myofunctional Therapy?</h2>
           <div className="motivation-content">
             <p className="motivation-intro">
-              My journey into myofunctional therapy began when I realized that traditional
-              dental care, while essential, often addressed symptoms rather than root causes.
+              My name is Abigail Bartrand. I am a registered dental hygienist and certified orofacial myofunctional therapist
+              with a passion for helping patients achieve improved oral function and overall health.
             </p>
-            <div className="motivation-points">
-              <div className="motivation-point">
-                <h3>Passion for Root Cause Solutions</h3>
-                <p>
-                  I believe in addressing the underlying causes of dental and breathing issues,
-                  not just treating symptoms. Myofunctional therapy empowers patients to make
-                  lasting changes that improve their overall health.
-                </p>
-              </div>
-              <div className="motivation-point">
-                <h3>Transforming Lives</h3>
-                <p>
-                  Witnessing patients experience better sleep, improved breathing, and enhanced
-                  quality of life is incredibly rewarding. Every success story motivates me to
-                  help more individuals discover the benefits of proper oral function.
-                </p>
-              </div>
-              <div className="motivation-point">
-                <h3>Holistic Health Approach</h3>
-                <p>
-                  I'm committed to working collaboratively with dentists, orthodontists, physicians,
-                  and other healthcare providers to ensure comprehensive, integrative care for
-                  each patient.
-                </p>
-              </div>
-            </div>
+            <p className="motivation-intro">
+              I earned my Bachelor of Science in Dental Hygiene from the University of Nebraska Medical Center, graduating in 2021,
+              and completed the MyoMentor program in 2022. My interest in myofunctional therapy began during my senior year of hygiene
+              school after a lecture on orofacial myofunctional therapy. That sparked an immediate interest, and I knew pursuing specialized
+              training in myofunctional therapy would allow me to better support and care for my patients.
+            </p>
+            <p className="motivation-intro">
+              With a strong foundation in dental hygiene and myofunctional therapy, I take a comprehensive, patient-centered
+              approach to care, focusing on education, collaboration, and long-term results. Outside of work, I enjoy hiking
+              and traveling with my husband, as well as embracing a few "grandma hobbies" like knitting and baking.
+            </p>
           </div>
         </div>
       </section>
