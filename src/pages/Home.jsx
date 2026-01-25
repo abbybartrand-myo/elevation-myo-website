@@ -10,7 +10,6 @@ function Home() {
         <div className="hero-content">
           <h1 className="hero-title">Elevation Myofunctional Therapy</h1>
           <p className="hero-subtitle">Transform Your Health Through Better Breathing and Function</p>
-          <p className="hero-location">Serving Grand Junction, Colorado</p>
           <div className="hero-buttons">
             <Link to="/contact" className="btn btn-primary">Contact Us</Link>
             <Link to="/information" className="btn btn-secondary">Learn More</Link>
