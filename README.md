@@ -105,13 +105,13 @@ You should see output like:
 
 ## Email Notifications Setup
 
-The contact form sends email notifications to `abby.bartrand@gmail.com` when someone submits a form.
+The contact form sends email notifications to `contactelevationmyo@gmail.com` when someone submits a form.
 
 ### To Enable Email Notifications:
 
 1. **Set up Gmail App Password**:
    - Go to https://myaccount.google.com/apppasswords
-   - Sign in with the Gmail account (abby.bartrand@gmail.com)
+   - Sign in with the Gmail account (contactelevationmyo@gmail.com)
    - Create a new App Password for "Mail"
    - Copy the 16-character password
 
@@ -308,7 +308,7 @@ lsof -ti:3001 | xargs kill -9
 ## Support
 
 For issues or questions:
-- Email: abby.bartrand@gmail.com
+- Email: contactelevationmyo@gmail.com
 - Phone: (970) 462-7675
 
 ## License

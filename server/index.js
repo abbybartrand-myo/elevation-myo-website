@@ -23,7 +23,7 @@ const SUBMISSIONS_FILE = path.join(__dirname, 'data', 'submissions.json');
 const EMAIL_CONFIG = {
   service: 'gmail', // or 'outlook', 'yahoo', etc.
   auth: {
-    user: 'abby.bartrand@gmail.com',
+    user: 'contactelevationmyo@gmail.com',
     pass: process.env.EMAIL_PASSWORD || 'YOUR_APP_PASSWORD_HERE' // Use environment variable or app-specific password
   }
 };
@@ -102,7 +102,7 @@ async function sendEmailNotification(submission) {
 
   const mailOptions = {
     from: EMAIL_CONFIG.auth.user,
-    to: 'abby.bartrand@gmail.com',
+    to: 'contactelevationmyo@gmail.com',
     subject: `New ${formTypeLabel} - ${submission.name}`,
     html: emailHtml,
     replyTo: submission.email
