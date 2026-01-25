@@ -20,7 +20,7 @@ function FAQ() {
               <h3>Is myofunctional therapy suitable for children?</h3>
               <p>
                 Yes! Myofunctional therapy can be highly effective for children, typically starting
-                around age 4-5. Early intervention can help prevent more serious issues from developing
+                around age 2. Early intervention can help prevent more serious issues from developing
                 and support proper facial growth and development.
               </p>
             </div>
