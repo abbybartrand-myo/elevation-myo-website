@@ -1,0 +1,59 @@
+/* FAQ Page Styles */
+
+/* FAQ */
+.faq-list {
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+
+.faq-item {
+  background: white;
+  padding: 1.75rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.5rem;
+}
+
+.faq-item h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.875rem;
+  font-size: 1.125rem;
+}
+
+.faq-item p {
+  color: var(--text-secondary);
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+
+/* CTA Section */
+.cta-info {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-info h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.cta-info p {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-item {
+    padding: 1.25rem;
+  }
+}
