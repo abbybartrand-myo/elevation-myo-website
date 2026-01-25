@@ -18,7 +18,7 @@ function AboutUs() {
         <div className="container">
           <div className="bio-section">
             <div className="bio-photo">
-              <img src="/imags/bio-photo.jpg" alt="Abigail Bartrand, RDH" />
+              <img src="/images/bio-photo.jpg" alt="Abigail Bartrand, RDH" />
             </div>
             <div className="bio-content">
               <h2>Meet Abigail Bartrand, RDH</h2>
