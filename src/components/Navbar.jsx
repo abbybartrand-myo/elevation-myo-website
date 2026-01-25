@@ -41,6 +41,12 @@ function Navbar() {
             <Link to="/information" className="nav-link" onClick={closeMenu}>Information</Link>
           </li>
           <li className="nav-item">
+            <Link to="/faq" className="nav-link" onClick={closeMenu}>FAQ</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/about" className="nav-link" onClick={closeMenu}>About Us</Link>
+          </li>
+          <li className="nav-item">
             <Link to="/resources" className="nav-link" onClick={closeMenu}>Resources</Link>
           </li>
           <li className="nav-item">

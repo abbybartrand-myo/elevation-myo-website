@@ -205,46 +205,6 @@ function Information() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="section gray-bg">
-        <div className="container">
-          <h2>Frequently Asked Questions</h2>
-          <div className="faq-list">
-            <div className="faq-item">
-              <h3>Is myofunctional therapy suitable for children?</h3>
-              <p>
-                Yes! Myofunctional therapy can be highly effective for children, typically starting
-                around age 4-5. Early intervention can help prevent more serious issues from developing
-                and support proper facial growth and development.
-              </p>
-            </div>
-            <div className="faq-item">
-              <h3>Does insurance cover myofunctional therapy?</h3>
-              <p>
-                Coverage varies by insurance provider and plan. Some medical and dental insurance
-                plans may cover myofunctional therapy, especially when related to sleep-disordered
-                breathing. We can provide documentation to submit to your insurance company.
-              </p>
-            </div>
-            <div className="faq-item">
-              <h3>How long are therapy sessions?</h3>
-              <p>
-                Initial consultations typically last 60-90 minutes. Follow-up sessions are usually
-                45-60 minutes and occur every 3-4 weeks during active treatment.
-              </p>
-            </div>
-            <div className="faq-item">
-              <h3>Can therapy help with sleep apnea?</h3>
-              <p>
-                Myofunctional therapy has been shown to be effective in reducing sleep apnea symptoms,
-                particularly for mild to moderate cases. It can also complement other treatments like
-                CPAP or oral appliances. We recommend working with your sleep physician.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Call to Action */}
       <section className="section cta-info">
         <div className="container">

@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Information from './pages/Information'
+import FAQ from './pages/FAQ'
+import AboutUs from './pages/AboutUs'
 import Contact from './pages/Contact'
 import Resources from './pages/Resources'
 
@@ -15,6 +17,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/information" element={<Information />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resources" element={<Resources />} />
           </Routes>
