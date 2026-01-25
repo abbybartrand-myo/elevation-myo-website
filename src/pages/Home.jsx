@@ -22,8 +22,7 @@ function Home() {
         <div className="container">
           <h2>What is Myofunctional Therapy?</h2>
           <p>
-            Myofunctional therapy is a specialized treatment approach that addresses improper
-            function of the tongue and facial muscles. Through customized exercises and techniques,
+            It is like physical therapy for your mouth. Through customized exercises and techniques,
             we help retrain oral and facial muscles to function correctly, leading to improvements
             in breathing, sleep, and overall health.
           </p>
