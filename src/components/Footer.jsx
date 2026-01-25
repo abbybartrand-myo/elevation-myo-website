@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-          <h3>Elevation Myofunctional Therapy</h3>
+          <h3>Elevation Myofunctional Therapy, LLC</h3>
           <p className="footer-tagline">
             Professional myofunctional therapy services in Grand Junction, Colorado
           </p>
@@ -52,7 +52,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Elevation Myofunctional Therapy. All rights reserved.</p>
+        <p>&copy; {currentYear} Elevation Myofunctional Therapy, LLC. All rights reserved.</p>
       </div>
     </footer>
   )
