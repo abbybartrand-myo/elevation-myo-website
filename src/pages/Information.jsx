@@ -51,7 +51,6 @@ function Information() {
               <ul>
                 <li>Relapse prevention after braces</li>
                 <li>Open bite</li>
-                <li>Crossbite</li>
                 <li>Crowding</li>
               </ul>
             </div>
@@ -80,15 +79,6 @@ function Information() {
                 <li>Poor oral posture</li>
                 <li>Weakened lip seal</li>
                 <li>Forward head posture</li>
-              </ul>
-            </div>
-            <div className="condition-card">
-              <h3>Speech Issues</h3>
-              <ul>
-                <li>Articulation difficulties</li>
-                <li>Tongue thrust swallow</li>
-                <li>Lisping</li>
-                <li>Difficulty with certain sounds</li>
               </ul>
             </div>
           </div>
