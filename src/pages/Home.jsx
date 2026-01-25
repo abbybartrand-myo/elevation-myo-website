@@ -75,34 +75,7 @@ function Home() {
                 <li>Chronic headaches</li>
                 <li>Teeth grinding (bruxism)</li>
                 <li>Forward head posture</li>
-                <li>Digestive issues</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* About Abigail Section */}
-      <section className="section about-section">
-        <div className="container">
-          <h2>About Abigail Bartrand, RDH</h2>
-          <div className="about-content">
-            <div className="about-image-placeholder">
-              <div className="placeholder-box">Professional Photo Coming Soon</div>
-            </div>
-            <div className="about-text">
-              <p>
-                Abigail Bartrand is a Registered Dental Hygienist with specialized training in
-                myofunctional therapy. With a deep commitment to evidence-based practice and
-                patient-centered care, Abigail helps individuals of all ages achieve better
-                breathing, sleep, and overall health through targeted therapeutic interventions.
-              </p>
-              <p>
-                Located in beautiful Grand Junction, Colorado, Abigail brings a professional yet
-                compassionate approach to every patient interaction, creating personalized treatment
-                plans that address each individual's unique needs and goals.
-              </p>
-              <Link to="/information" className="btn btn-link">Learn More About Our Services →</Link>
             </div>
           </div>
         </div>
