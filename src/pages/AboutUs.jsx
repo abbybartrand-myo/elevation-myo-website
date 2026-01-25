@@ -42,18 +42,6 @@ function AboutUs() {
         </div>
       </section>
 
-      {/* Mission Section */}
-      <section className="section">
-        <div className="container">
-          <h2>Our Mission</h2>
-          <p>
-            At Elevation Myofunctional Therapy, we are committed to helping individuals achieve
-            optimal oral and facial muscle function through personalized, evidence-based therapy.
-            Our goal is to improve breathing, sleep quality, and overall health for our patients.
-          </p>
-        </div>
-      </section>
-
       <section className="section cta-info">
         <div className="container">
           <h2>Ready to Get Started?</h2>
